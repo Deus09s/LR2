@@ -1,0 +1,147 @@
+
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+    background: linear-gradient(rgb(0, 242, 255), rgb(255, 122, 242), rgb(0, 242, 255));
+    
+  }
+
+
+
+  .abg{
+    background-image: url("./images/bg/abg.jpg");
+    background-size: cover;
+
+    position: relative;
+    
+
+    border: 5px solid black;
+    border-radius: 20%;
+    width: 700px;
+    height: 500px;
+    box-shadow: 1em 0 1em red, -1em 0 1em rgb(215, 215, 0);
+
+  }
+  /* .abg>img{
+
+    width: 700px;
+    height: 500px;
+    border-radius: 50%;
+   
+
+  } */
+
+  .text{
+   text-align: center;
+margin-top: 33px;
+  font-size: 44px;
+  font-weight: bolder;
+  
+  }
+  .text:hover{
+    -webkit-transition: all 1s ease;transition: all 1s ease;
+    color: gold;
+ 
+  font-size: 66px;
+  font-weight: bolder;
+  
+  }
+
+  
+
+
+
+.input1>input{ /*  LOOOOG IN */
+  text-align: center;
+  position: absolute;
+  left: 33%;
+  top:35%;
+  background: transparent;
+  border-radius: 50px;
+  width: 222px;
+  height: 60px;
+  font-family: comic;
+  font-size: 33px;
+  outline: 15px ridge rgba(0, 251, 255, 0.2);
+
+}
+.input2>input{/*  GIVE ME YOUR PASSWORD */
+  text-align: center;
+  position: absolute;
+  left: 33%;
+  top:55%;
+
+
+  background: transparent;
+  border-radius: 50px;
+  width: 222px;
+  height: 60px;
+  font-family: comic;
+  font-size: 33px;
+  outline: 15px ridge rgba(0, 251, 255, 0.2);
+  
+}
+
+
+.btn>:last-child{     /*  большая бирюзовая кнопка */
+position: absolute;
+left: 22%;
+bottom: 19px;
+
+
+
+  border: none;
+  border-bottom: 5px solid #ffffff;
+  background-color: rgba(0, 247, 255, 0.366);
+  border-radius: 60px;
+  padding-bottom: 20px;
+  outline: none;
+  font-size: 24px;
+  font-weight: 800;
+  text-align: center;
+  width: 400px;
+  
+  box-shadow: 1em 0 1em rgba(0, 0, 0, 0.481), -1em 0 1em rgba(0, 0, 0, 0.481);
+  
+}
+
+::placeholder{
+  font-size: 33px;
+	color: rgba(0, 0, 0, 0.8);
+  font-family: comic;
+  
+}
+
+
+
+
+
+
+
+.shapka{
+  display: flex;
+  position: fixed;
+  top:0px;
+  width: 100%;
+  height: 100px;
+  background: rgba(255, 255, 255, 0.6);
+  justify-content: space-between;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 10px solid rgb(0, 0, 0);
+  border-radius: 20px;
+  
+  }
+  .menu>img{
+    height: 100px; 
+    width: 100px;
+    margin: 0;
+    
+}
+.shapkaautorization-question{
+    margin-right: 20px;
+}
